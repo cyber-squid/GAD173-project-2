@@ -1,17 +1,1 @@
-﻿  example.cpp
-  main.cpp
-  tiles.cpp
-C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base\example.cpp(33,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base\example.cpp(58,44): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base\example.cpp(61,22): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base\example.cpp(60,33): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base\example.cpp(71,28): warning C4100: 'deltaT': unreferenced formal parameter
-  base.vcxproj -> C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\base_d.exe
+Started
