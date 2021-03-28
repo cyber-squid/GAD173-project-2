@@ -1,0 +1,69 @@
+﻿  app.cpp
+  dependencies.cpp
+  example.cpp
+  main.cpp
+  rabbit.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\app.cpp(43,24): warning C4100: 'deltaT': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\example.cpp(20,35): warning C4305: 'argument': truncation from 'double' to 'float32'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(132,45): warning C4458: declaration of 'v' hides class member (compiling source file example.cpp)
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(54,9): message : see declaration of 'kf::Vector2T<float>::<unnamed-tag>::<unnamed-tag>::v' (compiling source file example.cpp)
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(133): message : while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' (compiling source file example.cpp)
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kage2dutil\physics.h(90): message : see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled (compiling source file example.cpp)
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_streams.h(19): message : see reference to class template instantiation 'kf::Vector2T<float>' being compiled (compiling source file example.cpp)
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(21,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(35,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(47,8): warning C4189: 'y': local variable is initialized but not referenced
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(109,32): warning C4244: 'argument': conversion from 'double' to 'const TT', possible loss of data
+          with
+          [
+              TT=float
+          ]
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(150,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(152,143): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\projects\base_with_physics_test\rabbit.cpp(153,137): warning C4244: 'argument': conversion from 'int' to 'sf::Uint8', possible loss of data
+kage2dutil_d.lib(b2WorldCallbacks.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2WorldCallbacks.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2World.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2World.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Island.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Island.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Fixture.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Fixture.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2ContactManager.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2ContactManager.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Body.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Body.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2WheelJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2WheelJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2WeldJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2WeldJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2RopeJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2RopeJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2RevoluteJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2RevoluteJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2PulleyJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2PulleyJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2PrismaticJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2PrismaticJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2MouseJoint.obj) : warning LNK4099: PDB '' was not found with 'kage2dutil_d.lib(b2MouseJoint.obj)' or at ''; linking object as if no debug info
+kage2dutil_d.lib(b2MotorJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2MotorJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Joint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Joint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2GearJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2GearJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2FrictionJoint.obj) : warning LNK4099: PDB '' was not found with 'kage2dutil_d.lib(b2FrictionJoint.obj)' or at ''; linking object as if no debug info
+kage2dutil_d.lib(b2DistanceJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2DistanceJoint.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2PolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2PolygonContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2PolygonAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2PolygonAndCircleContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2EdgeAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2EdgeAndPolygonContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2EdgeAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2EdgeAndCircleContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2ContactSolver.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2ContactSolver.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Contact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Contact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2CircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2CircleContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2ChainAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2ChainAndPolygonContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2ChainAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2ChainAndCircleContact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Timer.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Timer.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2StackAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2StackAllocator.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Settings.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Settings.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Math.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Math.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Draw.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Draw.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2BlockAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2BlockAllocator.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2TimeOfImpact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2TimeOfImpact.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2DynamicTree.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2DynamicTree.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Distance.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Distance.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2Collision.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2Collision.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2CollidePolygon.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2CollidePolygon.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2CollideEdge.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2CollideEdge.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2CollideCircle.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2CollideCircle.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2BroadPhase.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2BroadPhase.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2PolygonShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2PolygonShape.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2EdgeShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2EdgeShape.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2CircleShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2CircleShape.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil_d.lib(b2ChainShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil_d.lib(b2ChainShape.obj)' or at 'C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\Box2D.pdb'; linking object as if no debug info
+  base_with_physics_test.vcxproj -> C:\Users\Shamma\Downloads\kage2d 20190730 (2)\bin\base_with_physics_test_d.exe
