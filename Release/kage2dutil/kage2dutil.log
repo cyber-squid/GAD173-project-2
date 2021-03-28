@@ -1,0 +1,73 @@
+﻿  anim.cpp
+  gameobject.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\gameobject.cpp(153,43): warning C4100: 'obj': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\gameobject.cpp(158,42): warning C4100: 'fix': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(132,45): warning C4458: declaration of 'v' hides class member
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(54,9): message : see declaration of 'kf::Vector2T<float>::<unnamed-tag>::<unnamed-tag>::v'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(133): message : while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\gameobject.cpp(92): message : see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_euler.h(29): message : see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  imgui-SFML.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\imgui-SFML.cpp(383,26): warning C4457: declaration of 'mousePos' hides function parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\imgui-SFML.cpp(375,33): message : see declaration of 'mousePos'
+  imgui.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\imgui.cpp(8589,9): warning C4189: 'cmd_size': local variable is initialized but not referenced
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  physics.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(78,86): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(78,71): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(78,56): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(78,41): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(89,142): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(89,127): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(89,112): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(89,97): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(93,142): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(93,127): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(93,112): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(93,97): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(94,191): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(94,176): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(94,161): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(94,146): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(98,141): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(98,126): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(98,111): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(98,96): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(105,65): warning C4100: 'color': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(105,44): warning C4100: 'size': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(105,33): warning C4100: 'p': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(116,81): warning C4100: 'normal': unreferenced formal parameter
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(308,8): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(308,8): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(389,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(132,45): warning C4458: declaration of 'v' hides class member
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(54,9): message : see declaration of 'kf::Vector2T<float>::<unnamed-tag>::<unnamed-tag>::v'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(133): message : while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\physics.cpp(410): message : see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kage2dutil\physics.h(29): message : see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  sfml_util.cpp
+  sound_manager.cpp
+  system.cpp
+  texture_manager.cpp
+  world.cpp
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\world.cpp(64,12): warning C4244: 'initializing': conversion from 'TT' to 'int', possible loss of data
+          with
+          [
+              TT=float
+          ]
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\world.cpp(65,12): warning C4244: 'initializing': conversion from 'TT' to 'int', possible loss of data
+          with
+          [
+              TT=float
+          ]
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\world.cpp(63,9): warning C4189: 'cy': local variable is initialized but not referenced
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\world.cpp(62,9): warning C4189: 'cx': local variable is initialized but not referenced
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(132,45): warning C4458: declaration of 'v' hides class member
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(54,9): message : see declaration of 'kf::Vector2T<float>::<unnamed-tag>::<unnamed-tag>::v'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_vector2.h(133): message : while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\components\kage2dutil\world.cpp(33): message : see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\include\kf\kf_euler.h(29): message : see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  Generating Code...
+  kage2dutil.vcxproj -> C:\Users\Shamma\Downloads\kage2d 20190730 (2)\dev\sdk\lib\kage2dutil.lib
